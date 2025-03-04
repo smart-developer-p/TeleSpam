@@ -31,5 +31,5 @@ export const startSendMessage = async (client: TelegramClient) => {
         }
         i++;
         if (i >= IDs.length) i = 0;
-    }, 1000 * 60 * 5);
+    }, 1000 * 60);
 };
